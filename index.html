@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kenyan and Mexican Delicacies</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		header {
+			background-image: url('food-background.jpg');
+			background-size: cover;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			flex-direction: column;
+			text-align: center;
+		}
+		.menu-item {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 10px;
+			border-bottom: 1px solid #ddd;
+		}
+		.menu-item:last-child {
+			border-bottom: none;
+		}
+		.menu-item img {
+			width: 100px;
+			height: 100px;
+			object-fit: cover;
+		}
+		.menu-item .name {
+			margin-left: 10px;
+		}
+		.menu-item .price {
+			font-weight: bold;
+		}
+		footer {
+			background-color: #ddd;
+			padding: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Kenyan and Mexican Delicacies</h1>
+		<p>Fixed price of 500ksh for all dishes</p>
+	</header>
+	<section class="menu">
+		<h2>Menu</h2>
+		<div class="menu-item">
+			<img src="dish1.jpg" alt="Dish 1">
+			<div class="name">Dish 1</div>
+			<div class="price">500ksh</div>
+		</div>
+		<div class="menu-item">
+			<img src="dish2.jpg" alt="Dish 2">
+			<div class="name">Dish 2</div>
+			<div class="price">500ksh</div>
+	
